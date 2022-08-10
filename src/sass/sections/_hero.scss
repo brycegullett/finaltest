@@ -55,6 +55,7 @@
 
     @include respond(tab-port) {
       justify-content: center;
+      border-radius: 20px;
     }
 
     & a {
