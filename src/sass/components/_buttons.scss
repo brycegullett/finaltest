@@ -1,5 +1,6 @@
 /* Call to Action Button */
 .cta-btn {
+  border-radius: 20px;
   display: inline-block;
   position: relative;
   padding: 0.8rem $default-font-size;
@@ -10,6 +11,7 @@
 
   &::after {
     content: "";
+    border-radius: 20px;
     display: block;
     position: absolute;
     width: 0px;
@@ -24,6 +26,7 @@
 /* Hero Style */
 .cta-btn--hero {
   @include supportColorForIE11();
+  border-radius: 20px;
   border: 2px solid transparent;
   border-image: linear-gradient(
     135deg,

@@ -173,3 +173,8 @@ body {
     width: 100%;
   }
 }
+@media (prefers-color-scheme: dark) {
+  .header_color .header_bg {
+    background-color: #ffffff;
+  }
+}
