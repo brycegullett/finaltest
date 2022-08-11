@@ -41,6 +41,31 @@
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="index.html#about">About</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          Work
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="branding.html" class="active">Social Media Branding </a>
+          <a href="cd.html">CD Design</a>
+          <a href="art.html">Album Art</a>
+          <a href="backdrop.html">Backdrop</a>
+          <a href="shirts.html">Shirts</a>
+        </div>
+      </div>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+
+    <div id="top"></div>
 
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
@@ -364,5 +389,6 @@
     <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
