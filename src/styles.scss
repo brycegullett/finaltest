@@ -45,9 +45,16 @@ body {
 }
 
 /* Add a black background color to the top navigation */
+
 .topnav {
   background-color: rgb(3, 3, 3);
   overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
