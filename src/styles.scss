@@ -50,6 +50,13 @@ body {
 .topnav {
   background-color: rgb(3, 3, 3);
   overflow: hidden;
+  @media screen and (max-width: 600px) {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 16px;
+  }
 }
 
 .sticky {
