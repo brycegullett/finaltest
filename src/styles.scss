@@ -45,11 +45,44 @@ body {
   text-align: center;
 }
 
+// custome nav button class
+.float {
+  position: fixed;
+  font-size: 56px;
+  opacity: 55%;
+  color: white;
+
+  &.f-top {
+    bottom: 0%;
+    text-align: center;
+    // figure out how to center align elem
+  }
+  &.f-right {
+    right: 8%;
+    top: 50%;
+  }
+  &.f-left {
+    left: 8%;
+    top: 50%;
+  }
+  &:hover {
+    opacity: 100%;
+    color: #1b5949 !important;
+  }
+}
+
 /* Add a black background color to the top navigation */
 
 .topnav {
   background-color: rgb(3, 3, 3);
   overflow: hidden;
+  @media screen and (max-width: 600px) {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 16px;
+  }
 }
 
 .sticky {
